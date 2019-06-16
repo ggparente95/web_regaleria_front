@@ -1,0 +1,11 @@
+
+<div class="card-group">
+  <div class="card border-secondary" *ngFor="let rubro of rubros">
+    <img src="{{rubro.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{rubro.nombre}}</h5>
+      <p class="card-text">{{rubro.descripcion}}</p>
+      <p class="card-text"><small class="text-muted">En Stock</small></p>
+    </div>
+  </div>
+</div>
